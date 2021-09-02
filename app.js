@@ -31,7 +31,7 @@ search = () => {
 
 displayBook = (data) => {
   const totalFound = document.getElementById("found");
-  totalFound.innerText = `প্রায় ${data.numFound} টি ফলাফল পাওয়া গেছে. `;
+  totalFound.innerText = `About  ${data.numFound} Result Found. `;
 
   console.log("daattta", data);
 
